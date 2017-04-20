@@ -3,3 +3,40 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+/*
+ul {
+	list-style: none;
+}
+*/
+.list {
+	background-color: #eff3f4;
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.list > li {
+	background-color: #3274ae;
+	width: 230px;
+	padding: 20px;
+	float: left;
+	margin-left: 20px;
+}
+.list > li:first-child {
+	margin-left: 0;
+}
+
+.contents {
+	background-color: #eaf4ff;
+	box-sizing: border-box;
+	border: 10px solid #022336;
+	padding: 20px;
+}
+
+.clearfix::before,
+.clearfix::after {
+	display: block;
+	content: "";
+	clear: both;
+}

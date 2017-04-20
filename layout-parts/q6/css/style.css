@@ -1,5 +1,85 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.btn__list.is-small {
+	display: flex;
+	justify-content: center;
+}
+.btn__list.is-small > li {
+	float: left;
+	padding: 0 15px;
+	height: 26px;
+	font-size: 16px;
+	border-radius: 3px;
+	margin-left: 10px;
+	line-height: 26px;
+}
+.btn__list.is-small > li:first-child {
+	margin-left: 0;
+}
 /* 回答はここに書いてね */
+.btn__list.is-middle {
+	display: flex;
+	justify-content: center;
+}
+.btn__list.is-middle > li {
+	float: left;
+	padding: 0 20px;
+	height: 32px;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-left: 10px;
+	line-height: 32px;
+
+}
+.btn__list.is-middle > li:first-child {
+	margin-left: 0;
+}
+.btn__list.is-large {
+	display: flex;
+	justify-content: center;
+}
+.btn__list.is-large > li {
+	float: left;
+	padding: 0 25px;
+	height: 38px;
+	font-size: 24px;
+	border-radius: 7px;
+	margin-left: 10px;
+	line-height: 38px;
+
+}
+.btn__list.is-large > li:first-child {
+	margin-left: 0;
+}
+
+.small-box1, .middle-box1, .large-box1 {
+	background-color: #00bcd4;
+	color: white;
+	float: left;
+}
+.small-box2, .middle-box2, .large-box2 {
+	background-color: #ff4081;
+	color: white;
+	float: left;
+}
+.small-box3, .middle-box3, .large-box3 {
+	background-color: #e5e5e5;
+	color: white;
+	float: left;
+}
+.small-box4, .middle-box4, .large-box4 {
+	background-color: white;
+	color: #222;
+	box-shadow: 0 1px 6px rgba(0,0,0,12),
+				0 1px 4px rgba(0,0,0,12);
+}
+.small-box1: frist-child {
+	margin-left: 0;
+}
+.clearfix::before,
+.clearfix::after {
+	display: block;
+	content:"";
+	clear: both;
+}

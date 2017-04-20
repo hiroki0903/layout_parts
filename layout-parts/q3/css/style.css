@@ -3,3 +3,38 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.contents {
+	width: 100%;
+	margin: 0 auto;
+    table-layout: fixed;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #dedede;
+}
+
+th {
+	background-color: #2244aa;
+	color: white;
+}
+
+th,td {
+	padding: 10px;
+	border: 1px solid #dedede;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+tr:nth-child(5) {
+	border-top: 2px dashed #000;
+}
+
+tr:nth-child(2n) {
+	background-color: #ecf1f2;
+}
+
+tbody > tr > td {
+	padding: 10px;
+	vertical-align: middle;
+}
+
+

@@ -3,3 +3,28 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.q10__contents {
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	width: 500px;
+	font-size: 16px;
+	line-height: 16px;
+	border-radius: 30px;
+	border: 5px solid #222;
+}
+.q10__contents:before,.q10__contents:after {
+	content: "";
+	position: absolute;
+	border: 20px solid transparent;
+}
+.q10__contents:before {
+	border-top-color: #222;
+	bottom: -45px;
+	left: 30px;
+}
+.q10__contents:after {
+	border-top-color: #fff;
+	bottom: -39px;
+	left: 30px;
+}

@@ -3,3 +3,113 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 11px system-ui;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.q7 {
+	text-align: center;
+	font-size: 0;
+}
+input.q7__txt::-webkit-input-placeholder {
+	color: #00BCD4;
+	font-weight: normal;
+}
+.q7__box {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+	font-size: 16px;
+}
+.q7__txt {
+	padding: 5px;
+    border: 1px solid #00BCD4;
+    border-radius: 5px;
+}
+.q7__init {
+	background: none;
+}
+.q7__textarea {
+	height: 40px;
+    padding: 5px;
+    border: 1px solid #00BCD4;
+    border-radius: 5px;
+    resize: none;
+}
+.q7__btn {
+	  padding: 5px 10px;
+    border: 1px solid #00BCD4;
+    border-radius: 5px;
+    color: #00BCD4;
+    cursor: pointer;
+}
+.q7__radio {
+	cursor: pointer;
+}
+.q7__radio__btn {
+	display: none;
+}
+.q7__radio__txt {
+	position: relative;
+    display: inline-block;
+    padding: 3px 3px 3px 20px;
+}
+.q7__radio__txt:before {
+	position: absolute;
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    margin-top: -8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    content: '';
+}
+.q7__radio__btn:checked + .q7__radio__txt:after {
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    background-color: #00BCD4;
+    border-radius: 50%;
+    content: '';
+}
+.q7__select {
+	position: relative;
+	background-color: #fff;
+}
+.q7__select:before {
+    position: absolute;
+    top: 7px;
+    right: 9px;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    content: "";
+}
+.q7__select__item {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 30px 5px 5px;
+    font-size: 14px;
+}
